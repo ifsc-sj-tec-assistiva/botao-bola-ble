@@ -1,3 +1,16 @@
+# Acionador Pneumático Assistivo (ESP32-C3 Super Mini + HX710B)
+
+Este repositório contém a implementação do firmware para um acionador pneumático de tecnologia assistiva, atuando como um mouse BLE HID (Bluetooth Low Energy Human Interface Device) de um único botão ("Botão Bola"). O sistema converte variações de pressão registradas pelo sensor HX710B em comandos digitais de clique do mouse hospedeiro.
+
+Estrutura do Repositório
+
+
+- firmware/: Diretório que contém a versão de produção ativa, otimizada para baixo consumo, leitura não-bloqueante e alta responsividade.
+
+- legacy/: Diretório contendo a versão inicial do código desenvolvida para testes preliminares, mantida para rastreabilidade histórica e análise comparativa de desempenho.
+
+---
+
 # Documentação Técnica e Fundamentação de Arquitetura
 
 Esta documentação detalha as decisões de engenharia, premissas de projeto e implementação do acionador assistivo pneumático via **BLE HID Mouse**, baseado no microcontrolador **ESP32-C3 Super Mini** e no conversor analógico-digital com sensor de pressão **HX710B**.

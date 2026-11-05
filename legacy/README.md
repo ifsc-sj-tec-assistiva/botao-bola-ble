@@ -1,0 +1,1 @@
+Esta pasta contém a implementação inicial desenvolvida pelo Francisco antes da reestruturação da organização. Mantida aqui para fins de referência histórica e comparação de desempenho.
